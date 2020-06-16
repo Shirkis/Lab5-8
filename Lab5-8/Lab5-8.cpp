@@ -144,10 +144,10 @@ void Lab5()
 		}
 		cout << endl;
 	}
-	cout << "-------------------";
+	cout << "-------------------" << endl;
 	n = 1;
 	Inter(m1, c1, r1, n);
-	cout << "-------------------";
+	cout << "-------------------" << endl;
 	n = 2;
 	Inter(m2, c2, r2, n);
 
@@ -479,7 +479,7 @@ void Lab8()
 
 #pragma endregion
 
-int main()
+void main()
 {
 	int lab = 9;
 	setlocale(LC_ALL, "Russian");
